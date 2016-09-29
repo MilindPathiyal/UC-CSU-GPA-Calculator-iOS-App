@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F908D0CA1D4B2382009F6D03 /* UCSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908D0C91D4B2382009F6D03 /* UCSchool.swift */; };
+		F908D0CC1D4B238F009F6D03 /* CSUSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908D0CB1D4B238F009F6D03 /* CSUSchool.swift */; };
+		F9277E851D525A8D001C6EEA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9277E841D525A8D001C6EEA /* Contact.swift */; };
+		F92A0DD01D42B5DE00D3B53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92A0DCF1D42B5DE00D3B53B /* AppDelegate.swift */; };
+		F92A0DD21D42B5DE00D3B53B /* UCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92A0DD11D42B5DE00D3B53B /* UCViewController.swift */; };
+		F92A0DD51D42B5DE00D3B53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92A0DD31D42B5DE00D3B53B /* Main.storyboard */; };
+		F92A0DD71D42B5DE00D3B53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92A0DD61D42B5DE00D3B53B /* Assets.xcassets */; };
+		F92A0DDA1D42B5DE00D3B53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92A0DD81D42B5DE00D3B53B /* LaunchScreen.storyboard */; };
+		F9383FDD1D5167A5007FF72C /* .. in Resources */ = {isa = PBXBuildFile; fileRef = F9383FDC1D5167A5007FF72C /* .. */; };
+		F94B531F1D5D245B00CB3322 /* GPA Calculator copy in Resources */ = {isa = PBXBuildFile; fileRef = F94B531E1D5D245B00CB3322 /* GPA Calculator copy */; };
+		F9911B791D49530200470686 /* CSUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9911B781D49530200470686 /* CSUViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F908D0C91D4B2382009F6D03 /* UCSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCSchool.swift; sourceTree = "<group>"; };
+		F908D0CB1D4B238F009F6D03 /* CSUSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSUSchool.swift; sourceTree = "<group>"; };
+		F9277E841D525A8D001C6EEA /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		F92A0DCC1D42B5DE00D3B53B /* GPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92A0DCF1D42B5DE00D3B53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F92A0DD11D42B5DE00D3B53B /* UCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCViewController.swift; sourceTree = "<group>"; };
+		F92A0DD41D42B5DE00D3B53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F92A0DD61D42B5DE00D3B53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F92A0DD91D42B5DE00D3B53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F92A0DDB1D42B5DE00D3B53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9383FDC1D5167A5007FF72C /* .. */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ..; sourceTree = "<group>"; };
+		F94B531E1D5D245B00CB3322 /* GPA Calculator copy */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "GPA Calculator copy"; path = "/Users/milindpathiyal/Desktop/GPA Calculator copy"; sourceTree = "<absolute>"; };
+		F9911B781D49530200470686 /* CSUViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSUViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F92A0DC91D42B5DD00D3B53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F92A0DC31D42B5DD00D3B53B = {
+			isa = PBXGroup;
+			children = (
+				F92A0DCE1D42B5DE00D3B53B /* GPA Calculator */,
+				F92A0DCD1D42B5DE00D3B53B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F92A0DCD1D42B5DE00D3B53B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92A0DCC1D42B5DE00D3B53B /* GPA Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F92A0DCE1D42B5DE00D3B53B /* GPA Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F92A0DCF1D42B5DE00D3B53B /* AppDelegate.swift */,
+				F9277E841D525A8D001C6EEA /* Contact.swift */,
+				F92A0DD11D42B5DE00D3B53B /* UCViewController.swift */,
+				F908D0C91D4B2382009F6D03 /* UCSchool.swift */,
+				F9911B781D49530200470686 /* CSUViewController.swift */,
+				F908D0CB1D4B238F009F6D03 /* CSUSchool.swift */,
+				F92A0DD31D42B5DE00D3B53B /* Main.storyboard */,
+				F9383FDC1D5167A5007FF72C /* .. */,
+				F92A0DD61D42B5DE00D3B53B /* Assets.xcassets */,
+				F94B531E1D5D245B00CB3322 /* GPA Calculator copy */,
+				F92A0DD81D42B5DE00D3B53B /* LaunchScreen.storyboard */,
+				F92A0DDB1D42B5DE00D3B53B /* Info.plist */,
+			);
+			path = "GPA Calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F92A0DCB1D42B5DD00D3B53B /* GPA Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92A0DDE1D42B5DE00D3B53B /* Build configuration list for PBXNativeTarget "GPA Calculator" */;
+			buildPhases = (
+				F92A0DC81D42B5DD00D3B53B /* Sources */,
+				F92A0DC91D42B5DD00D3B53B /* Frameworks */,
+				F92A0DCA1D42B5DD00D3B53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPA Calculator";
+			productName = "GPA Calculator";
+			productReference = F92A0DCC1D42B5DE00D3B53B /* GPA Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F92A0DC41D42B5DD00D3B53B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Milind Pathiyal";
+				TargetAttributes = {
+					F92A0DCB1D42B5DD00D3B53B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G6V8VF26HQ;
+					};
+				};
+			};
+			buildConfigurationList = F92A0DC71D42B5DD00D3B53B /* Build configuration list for PBXProject "GPA Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F92A0DC31D42B5DD00D3B53B;
+			productRefGroup = F92A0DCD1D42B5DE00D3B53B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F92A0DCB1D42B5DD00D3B53B /* GPA Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F92A0DCA1D42B5DD00D3B53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94B531F1D5D245B00CB3322 /* GPA Calculator copy in Resources */,
+				F9383FDD1D5167A5007FF72C /* .. in Resources */,
+				F92A0DDA1D42B5DE00D3B53B /* LaunchScreen.storyboard in Resources */,
+				F92A0DD71D42B5DE00D3B53B /* Assets.xcassets in Resources */,
+				F92A0DD51D42B5DE00D3B53B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F92A0DC81D42B5DD00D3B53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9277E851D525A8D001C6EEA /* Contact.swift in Sources */,
+				F92A0DD21D42B5DE00D3B53B /* UCViewController.swift in Sources */,
+				F908D0CA1D4B2382009F6D03 /* UCSchool.swift in Sources */,
+				F92A0DD01D42B5DE00D3B53B /* AppDelegate.swift in Sources */,
+				F9911B791D49530200470686 /* CSUViewController.swift in Sources */,
+				F908D0CC1D4B238F009F6D03 /* CSUSchool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F92A0DD31D42B5DE00D3B53B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92A0DD41D42B5DE00D3B53B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F92A0DD81D42B5DE00D3B53B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92A0DD91D42B5DE00D3B53B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F92A0DDC1D42B5DE00D3B53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F92A0DDD1D42B5DE00D3B53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F92A0DDF1D42B5DE00D3B53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "GPA Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Milindian.GPA-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "292fa6e2-5b59-45b6-825f-a692655fb3fd";
+			};
+			name = Debug;
+		};
+		F92A0DE01D42B5DE00D3B53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "GPA Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Milindian.GPA-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "292fa6e2-5b59-45b6-825f-a692655fb3fd";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F92A0DC71D42B5DD00D3B53B /* Build configuration list for PBXProject "GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92A0DDC1D42B5DE00D3B53B /* Debug */,
+				F92A0DDD1D42B5DE00D3B53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92A0DDE1D42B5DE00D3B53B /* Build configuration list for PBXNativeTarget "GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92A0DDF1D42B5DE00D3B53B /* Debug */,
+				F92A0DE01D42B5DE00D3B53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F92A0DC41D42B5DD00D3B53B /* Project object */;
+}
